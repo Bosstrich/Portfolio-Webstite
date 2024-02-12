@@ -1,0 +1,104 @@
+.section{
+
+  display: flex;
+  flex-shrink: 0;
+}
+
+#main_section{
+
+  padding-top: 100px;
+  height: 620px;  
+  grid-template-columns: 700px 650px;
+  justify-content: center;
+
+
+}
+
+
+
+.description_container{
+
+  width: 700px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6.5em;
+
+
+}
+
+.description_subcontainer{
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  position: absolute;
+  width: 750px;
+  left: 40px;
+  z-index: 4;
+
+}
+
+.buttons_container{
+
+  display: flex;
+  padding: 0;
+}
+
+
+
+#description{
+
+  color: var(--white);
+  text-align: justify;
+}
+
+#CV_btn{
+
+  margin-left: 50px;
+}
+
+
+
+.image_container{
+
+  width: 650px;
+
+  position: relative;
+
+}
+
+
+.small_hex{
+
+  position: absolute;
+  width: 250px;
+  top: 100px;
+  left: -15px;
+  pointer-events: none;
+
+
+
+}
+
+.big_hex{
+
+  width: 600px;
+  position: absolute;
+  bottom: 5px;
+  right: -120px;  
+  pointer-events: none;
+
+
+
+}
+
+.profile{
+
+  position: absolute;
+  z-index: 3;
+  height: 600px;
+  right: 10px;
+  top: 15px;
+  pointer-events: none;
+}

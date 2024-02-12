@@ -1,0 +1,190 @@
+
+#projects_section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 720px;
+}
+
+#header_container{
+
+    width: 1366px;
+    height: 300px;
+}
+
+
+#image_container2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1366px;
+    height: 300px;
+    background-color: black;
+    position: relative;
+ 
+}
+
+#projects_background{
+    
+
+    opacity: 0.65;
+    width: 1366px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 100% 5%;
+}
+
+#projects_description{
+
+    color: var(--white);
+    position: absolute;
+
+
+}
+
+#projects_container{
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 1366px;
+    height: 420px;
+}
+
+
+.projects{
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--accent);
+    position: absolute;
+    width: 450px;
+    height: 480px;
+    bottom: 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.projects:hover #hardware_background, .projects:hover #software_background{
+
+    opacity: 1;
+    color: var(--white);
+ 
+}
+
+.projects:hover #hardware_text, .projects:hover #software_text{
+
+    color: var(--white);
+}
+
+.projects:hover #hardware_icon, .projects:hover #software_icon{
+
+    opacity: 0;
+}
+
+.projects:hover #hardware_hovered, .projects:hover #software_hovered{
+
+    opacity: 1;
+}
+
+
+#hardware{
+    
+    left: 10rem;
+}
+
+#hardware_background{
+
+    opacity: 0;
+    pointer-events: none;
+    width: 450px;
+    height: 480px;
+    border-radius: 25px;
+    object-fit: cover;
+    transition: opacity 1s;
+}
+
+#hardware_icon{
+
+    width: 300px;
+    pointer-events: none;
+    position: absolute;
+    transition: opacity 1s;
+
+}
+
+#hardware_hovered{
+
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    width: 300px;
+    transition: opacity 1s;
+
+
+}
+
+#hardware_text{
+
+    color: black;
+    pointer-events: none;
+    position: absolute;
+    bottom: 1em;
+    transition: color 1s;
+}
+
+
+#software{
+
+    right: 10rem;
+
+}
+
+#software_background{
+
+    opacity: 0;
+    pointer-events: none;
+    width: 450px;
+    height: 480px;
+    border-radius: 25px;
+    object-fit: cover;
+    transition: opacity 1s;
+
+}
+
+
+#software_icon{
+
+    width: 300px;
+    pointer-events: none;
+    position: absolute;
+    transition: opacity 1s;
+
+}
+
+#software_hovered{
+
+    width: 300px;
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+#software_text{
+
+    color: black;
+    pointer-events: none;
+    position: absolute;
+    bottom: 1em;
+    transition: color 1s;
+
+}
+
+
+

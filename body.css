@@ -1,0 +1,24 @@
+:root{
+
+    --primary: #FFD900;
+    --accent: #01B3EF;
+    --dark_blue: #12151C;
+    --white: #ffffff;
+  
+  }
+  
+  *{
+    font-family: Arial;
+    margin: 0 0 ;
+  }
+  
+  body{
+  
+    background-color: var(--dark_blue);
+    overflow-x: hidden;
+  }
+
+
+
+  
+  
