@@ -4,6 +4,15 @@
     <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="Assets/assets.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="S-skills_assets.css">
+    <link rel="stylesheet" href="S-projects_assets.css">
+    <link rel="stylesheet" href="projects.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,37 +32,314 @@
             Bosstrich 
           </div>
           <div class="header_center">
-            <div class="nav">Home</div>
-            <div class="nav">About</div>
-            <div class="nav">Resume</div>
-            <div class="nav">Contact</div>
+            <a href="homepage.html" class="nav">Home</a>
+            <a class="nav">About</a>
+            <a class="nav">Resume</a>
+            <a class="nav">Contact</a>
           </div>
           <div class="header_right">
             <button class="border_btn" id="lang_btn">Eng</button>
             <button class="main_btn" id="hire_btn">Hire Me</button>
           </div>
         </div>
-      </header>
-    <div id="modal_background">
-        <div id="modal_box">
-            <p class="header1"  style="
-                
-                padding-inline: 0.5em;
-                padding-block: 0.5em;
-                text-align: center;
-                
+    </header>
 
-                ">This page is still under development</p>
+    <div id="skills_section">
+        <div id="software_header">
+            <p class="skills_text">SKILLS</p>
+            <p class="header1" id="software_header2">Software Skills</p>
+        </div>
+        <div id="skills_container">
 
-            <a href="https://www.figma.com/proto/LFmJzslcazW1p2b59kgNxx/PORTFOLIO-WEBSITE?type=design&node-id=9-10&t=xAhsrNrJmfCpV25R-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=9%3A10">
-                <button class="main_btn" style="
-                
-                   margin-top: 3rem;
-                ">View in Figma</button>
-            </a>
+            <div class="skill skill_type1 skill1" id="skill1">
 
+                <div class="skill_heading">
+                    <p class="header2 skill_category" >Back-End Development</p>
+                    <p class="header2 skill_percent">10% </p>
+                </div>
+
+                <div class="progress_bar">
+                    <div class="progress"></div>
+                </div>
+
+                <div class="skill_subsection">
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">Database Management</p>
+                        <div class="sub_bar">
+                            <div id="sub_progress1"></div>
+                        </div>
+                    </div>
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">Server Frameworks</p>
+                        <div class="sub_bar">
+                            <div id="sub_progress2"></div>
+                        </div>
+                    </div>
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">APIs:</p>
+                        <div class="sub_bar">
+                            <div id="sub_progress3"></div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+
+            </div>
+
+            <div class="skill skill_type1 skill2" id="skill2">
+                <div class="skill_heading">
+                    <p class="header2 skill_category" >Front-End Development</p>
+                    <p class="header2 skill_percent">45% </p>
+                </div>
+                <div class="progress_bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="skill_subsection">
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">HTML</p>
+                        <div class="sub_bar">
+                            <div id="sub_progress1"></div>
+                        </div>
+                    </div>
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">CSS</p>
+                        <div class="sub_bar">
+                            <div id="sub_progress2"></div>
+                        </div>
+                    </div>
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">JavaScript</p>
+                        <div class="sub_bar">
+                            <div id="sub_progress3"></div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="skill skill_type2 skill3" id="skill3">
+                <div class="skill_heading">
+                    <p class="header2 skill_category" >Programming</p>
+                    <p class="header2 skill_percent">55% </p>
+                </div>
+                <div class="progress_bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="skill_subsection">
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">Apps:</p>
+                        <img class="app_icons" src="Skills Assets/python_icon.png">
+                        <img class="app_icons" src="Skills Assets/java_icon.png">
+                        <img class="app_icons" src="Skills Assets/c_icon.png">
+                        <img class="app_icons" src="Skills Assets/c++_icon.png">
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill skill_type2 skill4" id="skill4">
+                <div class="skill_heading">
+                    <p class="header2 skill_category" >UI/UX</p>
+                    <p class="header2 skill_percent">65% </p>
+                </div>
+                <div class="progress_bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="skill_subsection">
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">Apps:</p>
+                        <img class="app_icons" src="Skills Assets/figma_icon.png">
+                        <img class="app_icons" src="Skills Assets/illustrator_icon.png">
+                        <img class="app_icons" src="Skills Assets/photoshop_icon.png">
+
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
+
+    <div class="divider">
+        <div id="divider1"></div>
+        <div id="divider2"></div>
+    </div>
+
+    <div id="skills_section">
+
+        <div id="skills_container">
+
+            <div class="skill skill_type2 skill1" id="skill5">
+                <div class="skill_heading">
+                    <p class="header2 skill_category" >Mobile Development</p>
+                    <p class="header2 skill_percent">35% </p>
+                </div>
+                <div class="progress_bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="skill_subsection">
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">Apps:</p>
+                        <img class="app_icons" src="Skills Assets/java_icon.png">
+                        <img class="app_icons" src="Skills Assets/firebase_icon.png">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill skill_type1 skill2" id="skill6">
+                <div class="skill_heading">
+                    <p class="header2 skill_category" >Artificial Intelligence</p>
+                    <p class="header2 skill_percent">37% </p>
+                </div>
+                <div class="progress_bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="skill_subsection">
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">Machine Learning</p>
+                        <div class="sub_bar">
+                            <div id="sub_progress1"></div>
+                        </div>
+                    </div>
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">Computer Vision</p>
+                        <div class="sub_bar">
+                            <div id="sub_progress2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill skill_type2 skill3" id="skill7">
+                <div class="skill_heading">
+                    <p class="header2 skill_category" >Computer Networks</p>
+                    <p class="header2 skill_percent">25% </p>
+                </div>
+                <div class="progress_bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="skill_subsection">
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">Apps:</p>
+                        <img class="app_icons" src="Skills Assets/packet_icon.png">
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill skill_type2 skill4" id="skill8">
+                <div class="skill_heading">
+                    <p class="header2 skill_category" >Dev. Ops </p>
+                    <p class="header2 skill_percent">25% </p>
+                </div>
+                <div class="progress_bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="skill_subsection">
+                    <div class="subsection">
+                        <p class="paragraph1 subsection_category">Apps:</p>
+                        <img class="app_icons" src="Skills Assets/git_icon.png">
+                        <img class="app_icons" src="Skills Assets/github_icon.png">
+
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+
+    <div class="type2_project" id="top_project">
+ 
+        <div class="image_container">
+          <img class="small_hex" src="Assets/Polygon.png">
+          <img class="big_hex" src="Assets/Polygon2.png">
+          <img id="edafos_mock" src="Projects_Assets/edafos_mock.png" alt="">
+          <img id="edafos_mock2" src="Projects_Assets/edafos_mock2.png" alt="">
+
+        </div>
+    
+           <div class="description_container">
+          <div class="description_subcontainer">
+            <p class="header2">édafos</p>
+            <p class="header1">(Mechine Learning, Computer Vision, Mobile Application, UI/UX)</p>
+            <p class="header2" id="description">A project that integrates both hardware and software, wherein users can use a mobile application to prompt drivers ahead of time that a passenger will ride the jeepney at a specific location.</p>
+            <div class="buttons_container">
+              <button class="main_btn" id="more_btn">
+                Learn More
+              </button>
+              <button class="border_btn" id="CV_btn">
+                Repository
+              </button>
+    
+            </div>
+          </div>     
+        </div>
+       
+        
+    </div>
+    
+    <div class="type1_project">
+    <div class="description_container">
+        <div class="description_subcontainer">
+        <p class="header2">Lots</p>
+        <p class="header1">(Mobile Application, UI/UX)</p>
+        <p class="header2" id="description">Lots is a personal mobile application project that I created that is related to spiritual. It is an app that introduces one of many myriad ways of communicating with God (Jesus)</p>
+        <div class="buttons_container">
+            <button class="main_btn" id="more_btn">
+            Learn More   
+            </button>
+            <button class="border_btn" id="CV_btn">
+            Repository
+            </button>
+
+        </div>
+        </div>
+        
+    </div>
+    
+    <div class="image_container">
+        <img class="small_hex" src="Assets/Polygon.png">
+        <img class="big_hex" src="Assets/Polygon2.png">
+        <img id="lots_mock" src="Projects_Assets/lots_mock.png" alt="">
+        <img id="lots_mock2" src="Projects_Assets/lots_mock2.png" alt="">
+    </div>
+    
+    </div>
+
+    <div class="type2_project">
+    
+    <div class="image_container">
+        <img class="small_hex" src="Assets/Polygon.png">
+        <img class="big_hex" src="Assets/Polygon2.png">
+        <img id="dispo_mock" src="Projects_Assets/dispo_mock.png" alt="">
+        <img id="dispo_mock2" src="Projects_Assets/dispo_mock2.png" alt="">
+
+
+    </div>
+
+        <div class="description_container">
+        <div class="description_subcontainer">
+        <p class="header2">DISPONERE</p>
+        <p class="header1">(UI/UX, Figma)</p>
+        <p class="header2" id="description">A mobile user interface design created for our Technopreneurship subject in my 3rd year as a Computer Engineering Student.  It is a concept where electronic enthusiast can buy electronic components through an app. </p>
+        <div class="buttons_container">
+            <button class="main_btn" id="more_btn">
+            Learn More
+            </button>
+            <button class="border_btn" id="CV_btn">
+            Repository
+            </button>
+
+        </div>
+        </div>     
+    </div>
+    
+    
+    </div>
+
+    
+    
 </body>
 </html>

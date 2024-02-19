@@ -1,0 +1,47 @@
+.image_container img{
+
+    position: absolute;
+    pointer-events: none;
+}
+
+#jeep_mock{
+
+    top: 3em;
+    right: -5em;
+    width: 800px;
+    z-index: 4;
+}
+
+#jeep_mock2{
+
+    top: 8em;
+    left: -5em;
+    width: 350px;
+}
+
+#robot_mock{
+
+    bottom: 1em;
+    width: 450px;
+}
+
+#robot_image{
+
+    width: 590px;
+}
+
+#patient_mock{
+
+    left: 10em;
+    bottom: 1em;
+    width: 280px;
+}
+
+#patient_mock2{
+
+    left: -5em;
+    bottom: 1em;
+    width: 500px;
+}
+
+

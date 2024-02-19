@@ -4,8 +4,15 @@
     <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="Assets/assets.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="H-skills_assets.css">
+    <link rel="stylesheet" href="H-projects_assets.css">
+    <link rel="stylesheet" href="projects.css">
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">  
@@ -14,47 +21,305 @@
     <title>Hardware S&P</title>
 </head>
 <body>
+
     <header class="header">
         <div class="header_container">
           <div class="header_left">
             Bosstrich 
           </div>
           <div class="header_center">
-            <div class="nav">Home</div>
-            <div class="nav">About</div>
-            <div class="nav">Resume</div>
-            <div class="nav">Contact</div>
+            <a href="homepage.html" class="nav">Home</a>
+            <a class="nav">About</a>
+            <a class="nav">Resume</a>
+            <a class="nav">Contact</a>
           </div>
           <div class="header_right">
             <button class="border_btn" id="lang_btn">Eng</button>
             <button class="main_btn" id="hire_btn">Hire Me</button>
           </div>
         </div>
-    
-    
-    
-      </header>
-      <div id="modal_background">
-        <div id="modal_box">
-            <p class="header1"  style="
-                
-                padding-inline: 0.5em;
-                padding-block: 0.5em;
-                text-align: center;
-                
+    </header>
 
-                ">This page is still under development</p>
+    
+    <div id="skills_section">
+      <div id="software_header">
+          <p class="skills_text">SKILLS</p>
+          <p class="header1" id="software_header2">Hardware Skills</p>
+      </div>
+      <div id="skills_container">
 
-            <a href="https://www.figma.com/proto/LFmJzslcazW1p2b59kgNxx/PORTFOLIO-WEBSITE?type=design&node-id=9-10&t=xAhsrNrJmfCpV25R-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=9%3A10">
-                <button class="main_btn" style="
-                
-                   margin-top: 3rem;
-                ">View in Figma</button>
-            </a>
+        <div class="skill skill_type2 skill3" id="skill1">
+            <div class="skill_heading">
+                <p class="header2 skill_category" >PCB Designing</p>
+                <p class="header2 skill_percent">35% </p>
+            </div>
+            <div class="progress_bar">
+                <div class="progress"></div>
+            </div>
+            <div class="skill_subsection">
+                <div class="subsection">
+                    <p class="paragraph1 subsection_category">Apps:</p>
+                    <img class="app_icons" src="Skills Assets/eagle_icon.png">
+                </div>
+            </div>
+        </div>
 
+        <div class="skill skill_type1 skill2" id="skill2">
+              <div class="skill_heading">
+                  <p class="header2 skill_category" >Digital Logic Designing</p>
+                  <p class="header2 skill_percent">35% </p>
+              </div>
+              <div class="progress_bar">
+                  <div class="progress"></div>
+              </div>
+              <div class="skill_subsection">
+                  <div class="subsection">
+                      <p class="paragraph1 subsection_category">Digital Circuits</p>
+                      <div class="sub_bar">
+                          <div id="sub_progress1"></div>
+                      </div>
+                  </div>
+                  <div class="subsection">
+                      <p class="paragraph1 subsection_category">Logic Circuits</p>
+                      <div class="sub_bar">
+                          <div id="sub_progress2"></div>
+                      </div>
+                  </div>
+              </div>
+        </div>
+
+          <div class="skill skill_type2 skill3" id="skill3">
+              <div class="skill_heading">
+                  <p class="header2 skill_category" >Embedded Systems</p>
+                  <p class="header2 skill_percent">45% </p>
+              </div>
+              <div class="progress_bar">
+                  <div class="progress"></div>
+              </div>
+              <div class="skill_subsection">
+                  <div class="subsection">
+                      <p class="paragraph1 subsection_category">Apps:</p>
+                      <img class="app_icons" src="Skills Assets/raspberry_icon.png">
+                      <img class="app_icons" src="Skills Assets/arduino_icon.png">
+                      <img class="app_icons" src="Skills Assets/c++_icon.png">
+                      <img class="app_icons" src="Skills Assets/esp32_icon.png">
+
+
+                  </div>
+              </div>
+          </div>
+          
+          <div class="skill skill_type2 skill4" id="skill4">
+              <div class="skill_heading">
+                  <p class="header2 skill_category" >HDL</p>
+                  <p class="header2 skill_percent">25% </p>
+              </div>
+              <div class="progress_bar">
+                  <div class="progress"></div>
+              </div>
+              <div class="skill_subsection">
+                  <div class="subsection">
+                      <p class="paragraph1 subsection_category">Apps:</p>
+                      <img class="app_icons" src="Skills Assets/ModelSim_icon.png">
+
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+
+  <div class="divider">
+      <div id="divider1"></div>
+      <div id="divider2"></div>
+  </div>
+
+  <div id="skills_section">
+
+      <div id="skills_container">
+
+          <div class="skill skill_type2 skill1" id="skill5">
+              <div class="skill_heading">
+                  <p class="header2 skill_category" >Microprocessors Ar.</p>
+                  <p class="header2 skill_percent">30% </p>
+              </div>
+              <div class="progress_bar">
+                  <div class="progress"></div>
+              </div>
+              <div class="skill_subsection">
+                  <div class="subsection">
+                      <p class="paragraph1 subsection_category">Apps:</p>
+                      <img class="app_icons" src="Skills Assets/mars_icon.png">
+                  </div>
+              </div>
+          </div>
+
+          <div class="skill skill_type1 skill2" id="skill6">
+              <div class="skill_heading">
+                  <p class="header2 skill_category" >Digital Signal Processing</p>
+                  <p class="header2 skill_percent">40% </p>
+              </div>
+              <div class="progress_bar">
+                  <div class="progress"></div>
+              </div>
+              <div class="skill_subsection">
+                  <div class="subsection">
+                      <p class="paragraph1 subsection_category">Image</p>
+                      <div class="sub_bar">
+                          <div id="sub_progress1"></div>
+                      </div>
+                  </div>
+                  <div class="subsection">
+                      <p class="paragraph1 subsection_category">Audio</p>
+                      <div class="sub_bar">
+                          <div id="sub_progress2"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="skill skill_type2 skill3" id="skill7">
+              <div class="skill_heading">
+                  <p class="header2 skill_category" >Computer Networks</p>
+                  <p class="header2 skill_percent">25% </p>
+              </div>
+              <div class="progress_bar">
+                  <div class="progress"></div>
+              </div>
+              <div class="skill_subsection">
+                  <div class="subsection">
+                      <p class="paragraph1 subsection_category">Apps:</p>
+                      <img class="app_icons" src="Skills Assets/packet_icon.png">
+
+                  </div>
+              </div>
+          </div>
+          
+          <div class="skill skill_type2 skill4" id="skill8">
+              <div class="skill_heading">
+                  <p class="header2 skill_category" >Robotics Hardware</p>
+                  <p class="header2 skill_percent">25%</p>
+              </div>
+              <div class="progress_bar">
+                  <div class="progress"></div>
+              </div>
+              <div class="skill_subsection">
+                  <div class="subsection">
+                      <p class="paragraph1 subsection_category">Apps:</p>
+                      <img class="app_icons" src="Skills Assets/raspberry_icon.png">
+                      <img class="app_icons" src="Skills Assets/arduino_icon.png">
+
+                  </div>
+              </div>
+          </div>
+          
+
+      </div>
+  </div>
+
+  <div class="type2_project" id="top_project">
+ 
+    <div class="image_container">
+      <img class="small_hex" src="Assets/Polygon.png">
+      <img class="big_hex" src="Assets/Polygon2.png">
+      <img id="jeep_mock" src="Projects_Assets/jeepney_mock.png" alt="">
+      <img id="jeep_mock2" src="Projects_Assets/jeepney_mock2.png" alt="">
+
+    </div>
+
+       <div class="description_container">
+      <div class="description_subcontainer">
+        <p class="header2">GPS-BASED JEEPNEY STOP SYSTEM</p>
+        <p class="header1">(Embedded Systems, Firebase, Programming)</p>
+        <p class="header2" id="description">A project that integrates both hardware and software, wherein users can use a mobile application to prompt drivers ahead of time that a passenger will ride the jeepney at a specific location.</p>
+        <div class="buttons_container">
+          <button class="main_btn more_btn">
+            Learn More
+          </button>
+          <button class="border_btn" id="CV_btn">
+            Repository
+          </button>
 
         </div>
+      </div>     
+    </div>
+   
+    
+  </div>
+
+
+  <div class="type1_project">
+    <div class="description_container">
+      <div class="description_subcontainer">
+        <p class="header2">OBSTACLE AVOIDANCE ROBOT CAR</p>
+        <p class="header1">(Robotics, Sensors, Programming)</p>
+        <p class="header2" id="description">A project which utilizes an ultrasonic distance sensor, along with other electronic components to create a robot car that avoids an obstacle course track.</p>
+        <div class="buttons_container">
+          <button class="main_btn more_btn">
+            Learn More   
+          </button>
+          <button class="border_btn" id="CV_btn">
+           Repository
+          </button>
+
+        </div>
+      </div>
+     
+    </div>
+   
+    <div class="image_container">
+      <img class="small_hex" src="Assets/Polygon.png">
+      <img class="big_hex" id="robot_image" src="Projects_Assets/robot_mock.png" alt="">
+      <img id="robot_mock" src="Projects_Assets/robot_mock2.png" alt="">
+
+
     </div>
     
+  </div>
+
+  <div class="type2_project" id="top_project">
+ 
+    <div class="image_container">
+      <img class="small_hex" src="Assets/Polygon.png">
+      <img class="big_hex" src="Assets/Polygon2.png">
+      <img id="patient_mock" src="Projects_Assets/patient_mock.png" alt="">
+      <img id="patient_mock2" src="Projects_Assets/patient_mock2.png" alt="">
+    </div>
+
+       <div class="description_container">
+      <div class="description_subcontainer">
+        <p class="header2">REMOTE PATIENT MONITORING SYSTEM</p>
+        <p class="header1">(Embedded Systems, IoT, Programming)</p>
+        <p class="header2" id="description">A project that utilizes ECG Sensors with Raspberry Pi 4 to monitor a patient’s heartbeat remotely . When the patient has a seizure, the application would notify the user.</p>
+        <div class="buttons_container">
+          <button  class="main_btn more_btn">
+            Learn More
+          </button>
+          <button class="border_btn" id="CV_btn">
+            Repository
+          </button>
+
+        </div>
+      </div>     
+    </div>
+   
+    
+  </div>
+
+
+
+   
 </body>
+<script>
+    document.querySelectorAll('.more_btn').forEach(button =>{
+
+        button.addEventListener('click', () => {
+        alert('button is clicked!');
+        console.log('clicked!');
+        });
+    });
+    
+
+
+</script>
 </html>

@@ -1,0 +1,52 @@
+.image_container img{
+
+    position: absolute;
+    pointer-events: none;
+}
+
+#edafos_mock{
+
+    width: 250px;
+    left: 0.5em;
+    bottom: 3em;
+}
+
+#edafos_mock2{
+
+    width: 200px;
+    bottom: 3em;
+    right: 15em;
+}
+
+#lots_mock{
+
+    width: 400px;
+    top: 3em;
+    right: -2em;
+}
+
+#lots_mock2{
+
+    width: 200px;
+    bottom: 2em;
+    left: 15em;
+}
+
+
+#dispo_mock{
+
+    width: 350px;
+    bottom: 1em;
+}
+
+#dispo_mock2{
+
+    width: 250px;
+    right: 10em;
+    bottom: 1em;
+}
+
+ 
+
+
+

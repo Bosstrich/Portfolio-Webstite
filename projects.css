@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+.type1_project{
+
+    display: grid;  
+    padding-top: 100px;
+    height: 620px;  
+    grid-template-columns: 700px 650px;
+    justify-content: center;
+    user-select: none;
+
+}
+
+.type2_project{
+
+    user-select: none;
+    display: grid;  
+    padding-top: 100px;
+    height: 620px;  
+    grid-template-columns: 650px 700px;
+    justify-content: center;
+}
+
+
+#top_project{
+
+    padding-top: 0px;
+
+}
+  
+
+
+.description_container{
+
+position: relative;
+display: flex;
+flex-direction: column;
+padding-top: 6.5em;
+
+
+}
+
+.type1_project .description_subcontainer{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    position: absolute;
+    width: 750px;
+    left: 40px;
+    z-index: 4;
+    font-family: "Lemon", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+.type2_project .description_subcontainer{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    position: absolute;
+    text-align: right;
+    width: 750px;
+    right: 40px;
+    z-index: 4;
+    font-family: "Lemon", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+.type1_project .buttons_container{
+
+    display: flex;
+    padding: 0;
+}
+
+.type2_project .buttons_container{
+
+    display: flex;
+    justify-content: right;
+    padding: 0;
+}
+
+
+
+#description{
+
+color: var(--white);
+text-align: justify;
+}
+
+#CV_btn{
+
+margin-left: 50px;
+}
+
+
+
+.image_container{
+
+width: 650px;
+
+position: relative;
+
+}
+
+
+.type1_project .small_hex{
+
+position: absolute;
+width: 250px;
+top: 100px;
+left: -15px;
+pointer-events: none;
+
+}
+
+.type2_project .small_hex{
+
+position: absolute;
+width: 250px;
+top: 100px;
+right: -15px;
+pointer-events: none;
+
+}
+
+
+.type1_project .big_hex{
+
+width: 600px;
+position: absolute;
+bottom: 5px;
+right: -120px;  
+pointer-events: none;
+
+
+
+}
+
+.type2_project .big_hex{
+
+width: 600px;
+position: absolute;
+bottom: 5px;
+left: -120px;  
+pointer-events: none;
+
+
+    
+}
+
+

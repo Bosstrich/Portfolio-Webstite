@@ -1,0 +1,152 @@
+#skill1 #sub_progress1{
+
+    position: absolute;
+    height: 100%;
+    background-color: var(--accent); 
+    width: 10%;
+    border-radius: 10px;
+ }
+
+
+
+ #skill1 .progress{
+
+    position: absolute;
+    height: 100%;
+    background-color: var(--primary); 
+    width: 10%;
+    border-radius: 10px;
+ }
+
+ #skill2 .progress{
+
+    position: absolute;
+    height: 100%;
+    background-color: var(--primary); 
+    width: 45%;
+    border-radius: 10px;
+ }
+
+ #skill2 #sub_progress1{
+
+    position: absolute;
+    height: 100%;
+    background-color: var(--accent); 
+    width: 80%;
+    border-radius: 10px;
+ }
+
+ #skill2 #sub_progress2{
+
+    position: absolute;
+    height: 100%;
+    background-color: var(--accent); 
+    width: 50%;
+    border-radius: 10px;
+ }
+
+ #skill2 #sub_progress3{
+
+    position: absolute;
+    height: 100%;
+    background-color: var(--accent); 
+    width: 40%;
+    border-radius: 10px;
+ }
+
+ 
+ #skill3 .progress{
+
+    position: absolute;
+    height: 100%;
+    background-color: var(--primary); 
+    width: 55%;
+    border-radius: 10px;
+ }
+
+ #skill4 .progress{
+
+    position: absolute;
+    height: 100%;
+    background-color: var(--primary); 
+    width: 65%;
+    border-radius: 10px;
+ }
+
+ #skill5 .progress{
+
+   position: absolute;
+   height: 100%;
+   background-color: var(--primary); 
+   width: 35%;
+   border-radius: 10px;
+}
+
+#skill6 .progress{
+
+   position: absolute;
+   height: 100%;
+   background-color: var(--primary); 
+   width: 37%;
+   border-radius: 10px;
+}
+
+#skill6 #sub_progress1{
+
+   position: absolute;
+   height: 100%;
+   background-color: var(--accent); 
+   width: 30%;
+   border-radius: 10px;
+}
+
+#skill6 #sub_progress2{
+
+   position: absolute;
+   height: 100%;
+   background-color: var(--accent); 
+   width: 25%;
+   border-radius: 10px;
+}
+
+
+.subsection2 #sub_progress1{
+
+   position: absolute;
+   height: 100%;
+   background-color: var(--accent); 
+   width: 20%;
+   border-radius: 10px;
+}
+ 
+
+.subsection2 #sub_progress2{
+
+   position: absolute;
+   height: 100%;
+   background-color: var(--accent); 
+   width: 10%;
+   border-radius: 10px;
+}
+ 
+ 
+#skill7 .progress{
+
+   position: absolute;
+   height: 100%;
+   background-color: var(--primary); 
+   width: 25%;
+   border-radius: 10px;
+}
+
+#skill8 .progress{
+
+   position: absolute;
+   height: 100%;
+   background-color: var(--primary); 
+   width: 25%;
+   border-radius: 10px;
+}
+
+
+ 
