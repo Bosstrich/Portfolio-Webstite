@@ -1,0 +1,342 @@
+@media (max-width: 768px){
+
+    .header1{
+
+    color: var(--white);
+    font-size: 2.5rem;
+    word-break: break-word;
+    font-weight: 500;
+    }
+    
+    .header2{
+    
+    color: var(--primary);
+    font-size: 1.8rem;
+    }
+
+    .header3{
+    
+    color: var(--primary);
+    font-size: 1.3rem;
+    }
+
+
+    .paragraph1{
+
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 400;
+    }
+
+/* ======= NAVIGATION BAR ======= */
+    
+    .nav{
+        display: none;
+    }
+
+    
+    .header_center{
+
+        margin: 0;
+    }
+
+/* ==== HEADER ========= */
+
+    .small_hex{
+
+        left: -290px;
+      
+    }
+    
+    .big_hex{
+    
+        right: -200px;  
+
+    }
+
+    
+    .profile{
+        right: -10px;
+        top: 15px;
+    }
+
+    /* ==== Portfolio ======== */
+
+    .projects{
+
+        width: 300px !important; 
+        height: 400px !important;
+
+    }
+        
+
+    #hardware_background, #software_background{
+
+        width: 300px !important;
+        height: 400px !important;
+
+    }
+
+    #hardware_icon, #hardware_hovered, #software_icon, #software_hovered{
+
+        width: 250px !important;
+        
+    }
+
+
+
+
+}
+
+@media (max-width: 425px) {
+
+    
+    .header1{
+
+        color: var(--white);
+        font-size: 2.5rem;
+        word-break: break-word;
+        font-weight: 500;
+    }
+    
+    .header2{
+    
+        color: var(--primary);
+        font-size: 1.5rem;
+    }
+
+    .header3{
+    
+    color: var(--primary);
+    font-size: 1.3rem;
+    }
+
+
+    .paragraph1{
+
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 400;
+    }
+
+    .border_btn{
+
+        padding: 1em 1.5em;
+    }
+
+    .main_btn{
+
+        padding: 1em 0.5em
+    }
+    
+/* ==== NAVIGATION BAR ========= */
+
+    .header_left{
+
+
+        font-size: 40px;
+
+    }       
+
+    .header_center{
+
+        margin: 0;
+    }
+
+
+    .header_right{
+    
+        flex-grow: 0;
+        display: flex;
+        white-space: nowrap;
+    }
+
+    /* ==== Header ======== */
+
+    #main_section{
+
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+
+    }
+
+    .section{
+
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column-reverse;
+    }
+    .image_container{
+
+        height: 100vh;
+        width: 100%;    
+        position: absolute;    
+        order: -1;
+
+    }
+    .description_container{
+
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .description_subcontainer{
+
+        left: 2.3rem;
+        right: 2.3rem;
+        background-color: rgba(0, 0, 0, 0.3);
+        margin-top: 3rem;
+        border-radius: 1rem;
+        padding: 0.5rem;
+    }
+
+    .small_hex{
+
+        position: absolute;
+        width: 200px;
+        inset: 5rem 0 0 0;
+
+    }
+    
+    .big_hex{
+    
+        inset: 10rem 0 0 7rem; 
+        width: 450px;
+        position: absolute;
+
+    
+    }
+
+    .profile{
+        position: absolute;
+        height: 450px;
+        inset: 7rem 0 0 10rem;
+    }
+
+
+
+
+
+    /* ==== Portfolio ======== */
+
+    #projects_section{
+
+        height: 200vh !important;
+    }
+    #projects_container{
+
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        height: 100% !important;
+    }
+
+    /* ======= CONTACTS ============== */
+
+    .contact_icon{
+
+        width: 2rem !important;
+
+
+    }
+
+    
+  
+}
+
+@media (width <= 375px){
+
+    .header1{
+
+        color: var(--white);
+        font-size: 1.7rem;
+        word-break: break-word;
+        font-weight: 500;
+    }
+    
+    .header2{
+    
+    color: var(--primary);
+    font-size: 1.3rem;
+    }
+
+    .header3{
+    
+    color: var(--primary);
+    font-size: 1.3rem;
+    }
+
+
+    .paragraph1{
+
+        color: var(--white);
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+
+    .border_btn{
+
+        padding: 0.5em 2em;
+        font-size: 1rem;
+    }
+
+    .main_btn{
+
+        padding: 1em 1.5rem;
+        font-size: 0.9rem;
+
+    }
+
+    /*======= NAVIGATION BAR ==========  */
+
+    .header_container{
+
+        flex-direction: column;
+    }
+/* ====== HEADER =========== */
+
+    .buttons_container{
+
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    #CV_btn{
+
+        margin: 0 ;
+    }
+
+
+/* ====== PROJECTS =========== */
+
+   .projects, #hardware_background, #software_background{
+
+        width: 250px !important;
+        height: 350px !important;
+   }
+
+   #hardware_icon, #software_icon, #hardware_hovered, #software_hovered{
+
+        width: 200px !important;
+   }
+
+   /* ======== CONTACTS ======= */
+
+   .details_container{
+
+        width: 15rem !important;
+        overflow-wrap: break-all !important;
+   }
+
+   .contact_details{
+
+        word-wrap: break-all !;
+   }
+   
+
+}

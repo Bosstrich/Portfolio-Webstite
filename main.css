@@ -8,8 +8,9 @@
 
   padding-top: 100px;
   height: 620px;  
-  grid-template-columns: 700px 650px;
   justify-content: center;
+  overflow: hidden;
+  width: 100vw;
 
 
 }
@@ -18,7 +19,8 @@
 
 .description_container{
 
-  width: 700px;
+  max-width: 700px;
+  width: 60%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -33,9 +35,10 @@
   flex-direction: column;
   gap: 1em;
   position: absolute;
-  width: 750px;
+  max-width: 750px;
   left: 40px;
   z-index: 4;
+
 
 }
 
@@ -43,6 +46,7 @@
 
   display: flex;
   padding: 0;
+
 }
 
 
@@ -62,8 +66,8 @@
 
 .image_container{
 
-  width: 650px;
-
+  max-width: 650px;
+  width: 40%;
   position: relative;
 
 }
@@ -72,9 +76,9 @@
 .small_hex{
 
   position: absolute;
-  width: 250px;
+  max-width: 250px;
   top: 100px;
-  left: -15px;
+  left: -130px;
   pointer-events: none;
 
 
@@ -83,7 +87,7 @@
 
 .big_hex{
 
-  width: 600px;
+  max-width: 600px;
   position: absolute;
   bottom: 5px;
   right: -120px;  

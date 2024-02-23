@@ -1,9 +1,10 @@
 .header{
+
     color: var(--primary);
     display: flex;
-    padding-inline: 50px;
     justify-content: center;
     background-color: transparent;
+    padding-inline: 40px;
     position: fixed;
     height: 100px;
     left: 0;
@@ -11,12 +12,14 @@
     top: 0;
     z-index: 10;
 
+
 }
 
 .header_container{
 
     display: flex;
-    width: 1366px;
+    width: 100%;
+    max-width: 1;
     flex-shrink: 0 ;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +29,6 @@
 .header_left {
     
     user-select: none;
-    margin-left: 40px;
     font-family: 'Imperial Script', cursive;
     font-size: 50px;    
     width: 150px;
@@ -34,24 +36,17 @@
 
 .header_center{
     flex-shrink: 0 ;
-
     display: flex;
     justify-content: center;
-    margin-inline: 50px;
+    gap: 5rem;
     flex: 1;
 
-    
 }
 
-.header_right{
-
-    margin-right: 40px;
-}
 
 .nav{
 
     cursor: pointer;
-    margin-left: 50px;
 }
 
 
